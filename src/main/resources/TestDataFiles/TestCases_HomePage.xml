@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TestCases xsi:schemalocation="http://www.w3schools.com
+Input.xsd"
+	xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<product>Project</product>
+	<Testcase id="101">
+		<Name>A</Name>
+		<Email>kz@yahoo.com</Email>
+	</Testcase>
+</TestCases>

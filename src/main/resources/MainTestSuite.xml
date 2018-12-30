@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteName" parallel="classes" thread-count="3">
+	<listeners>
+		
+			<listener class-name="test.com.framework.WebDriverListenerTestInstance" />
+			<listener class-name="test.com.utilities.ReportListener" />
+	</listeners>
+
+	<test name="demoTestChrome">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="testcasesclassinstance.TCHomePage" />
+			<class name="testcasesclassinstance.TCHomePage" />
+		</classes>
+</test>
+<!-- 			<test name="demoTestIE">
+		<parameter name="browserName" value="ie" />
+		<classes>
+			<class name="testcasesclassinstance.TCHomePage" />
+			<class name="testcasesclassinstance.TCHomePage" />
+		</classes>
+	</test> -->
+
+
+</suite>
+

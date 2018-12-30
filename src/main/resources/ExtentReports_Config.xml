@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+
+	<configuration>
+		<theme>standard</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>https</protocol>
+		<documentTitle>AutomationReport</documentTitle>
+		<reportName>TestAutomationReport</reportName>
+		<reportHeadline>Company</reportHeadline>
+		<dateFormat>dd-MM-yyyy</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+
+	</configuration>
+
+</extentreports>
